@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+@font-face {
+    font-family: "Nimbus";
+    src: url(TAN-NIMBUS.otf)
+}
+
+:root{
+    --color-primario:#87B7DE;
+    --color-secundario:#E3B5CF;
+    --color-terciario: #BA0301;
+    --color-claro: #F1EAE5;
+    --color-oscuro: #02020C;
+    --fuente-primaria: "Nimbus";
+    --fuente-secundaria: "Josefin Sans";
+}
+
+/*
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+    */
+body{
+    background-color: var(--color-claro);
+}
+
+h1{
+    font-family: var(--fuente-primaria);
+}
+h2{
+    font-family: var(--fuente-secundaria);
+}
