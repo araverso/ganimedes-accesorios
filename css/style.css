@@ -28,7 +28,28 @@ body{
 
 h1{
     font-family: var(--fuente-primaria);
+    font-size: 50px;
+    color: var(--color-oscuro);
 }
 h2{
     font-family: var(--fuente-secundaria);
+    font-size: 30px;
+    color: var(--color-oscuro);
+}
+
+header{
+    background-color: var(--color-claro);
+}
+
+.header__nav{
+        list-style: none;
+}
+
+.header__nav__link{
+    text-decoration: none;
+}
+
+
+footer{
+    background-color: #87B7DE;
 }
