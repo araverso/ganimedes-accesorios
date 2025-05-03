@@ -10,53 +10,62 @@
     <header>
         <table>
             <tr>
-                <td width="33.3%"><a href="index.html"><img src="./imagenes/logo_pagina.svg" alt="diseño de una luna en blanco y negro, abajo dice: Ganímedes Accesorios" width="100%"> </a></td>
+                <td width="33.3%"><a href="index.html"><img src="./imagenes/logo-ganimedes/3 negro.png" alt="diseño de una luna en blanco y negro, abajo dice: Ganímedes Accesorios" width="50%"> </a></td>
                 <td width="33.3%"> 
                     <h1 width="100%">GANÍMEDES</h1>
                     <h2> Tienda de accesorios</h2> 
                 </td>
                 <td width="33.3%">
                     <nav>
-                        <ul class="header__nav" width="100%">
-                            <li><a href="index.html" class="header__nav__link">Inicio</a></li>
-                            <li><a href="productos.html" class="header__nav__link">Productos</a></li>
-                            <li><a href="informacion.html" class="header__nav__link">Preguntas frecuentes</a></li>
-                            <li><a href="contacto.html" class="header__nav__link">Contacto</a></li>
+                        <ul width="100%">
+                            <li><a href="index.html">Inicio</a></li>
+                            <li><a href="productos.html">Productos</a></li>
+                            <li><a href="informacion.html">Preguntas frecuentes</a></li>
+                            <li><a href="contacto.html">Contacto</a></li>
                         </ul>
                     </nav>
                 </td>
             </tr>
         </table>
-    <p> <i>Desde Ganímedes hasta La Tierra</i> </p>  
 </header>
     <main>
         <hr>
         <section >
             <h2>Formulario para consultas</h2>
-            <ul>
-                <li>Ingresa tu mail correctamente ya que es al que nos comunicaremos.</li>
-                <li>No olvides completar tu consulta</li>
-            </ul>
+            <p>¡No olvides revisar el mail! Nos estaremos comunicando en los próximos días</p>
             <form action="https://formspree.io/f/mnnpeepv" method="POST">
                 <label for="nombre">Nombre:</label>
                 <br>
-                <input type="texto" name="Nombre" id="nombre" placeholder="Ingrese su nombre:">
+                <input type="texto" name="Nombre" id="nombre" placeholder="Ingrese su nombre:" required>
                 <br>
                 <label for="email">Email:</label>
                 <br>
-                <input type="email" name="Email" id="email" placeholder="Ingrese su email:">
+                <input type="email" name="Email" id="email" placeholder="Ingrese su email:" required>
+                <br>
+                <label for="instagram">Instagram: (opcional)</label>
+                <br>
+                <input type="texto" name="instagram" id="instagram" placeholder="Ingrese su usuario:" required>
+                <br>
+                <label for="opciones">Consulta:</label>
+                <br>
+                <select name="opciones"> 
+                    <option value="opcion1">Pedido personalizado</option> 
+                    <option value="opcion2">Problemas con el envío</option>
+                    <option value="opcion3">Punto de retiro</option> 
+                    <option value="opcion4">Otro</option> 
+                </select>
                 <br>
                 <label for="consulta">Consulta:</label>
                 <br>
-                <textarea name="Consulta:" rows="5" cols="30" placeholder="Escriba aquí su consulta"></textarea>
+                <textarea name="Consulta:" rows="5" cols="30" placeholder="Escriba aquí su consulta" required></textarea>
                 <br>
                 <input type="submit" name="Submit" id="submit" placeholder="Enviar:">
                 <input type="reset" name="Reset" id="reset" placeholder="Restablecer:">
             </form>
         </section>
         <section>
-            <h2>Punto de venta físico*</h2>
-            <p>*Solo para colección de magic y fantasía</p>
+            <h2>Punto de venta físico</h2>
+            <p>Disponible para nuestra colección Aventura y punto de retiro</p>
             <section>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3271.361969828563!2d-57.94908482479559!3d-34.92245787440051!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e7718ff4260b%3A0x692a152690f520a0!2sLa%20Frikioteca!5e0!3m2!1ses-419!2sar!4v1745169881451!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </section>

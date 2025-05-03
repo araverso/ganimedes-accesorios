@@ -22,6 +22,11 @@
     box-sizing: border-box;
 }
     */
+
+html{
+    font-size: 1rem;
+}
+
 body{
     background-color: var(--color-claro);
 }
@@ -38,18 +43,17 @@ h2{
 }
 
 header{
-    background-color: var(--color-claro);
+    background-color: var(--color-primario);
 }
 
-.header__nav{
-        list-style: none;
+ul{
+    list-style: none;
 }
 
-.header__nav__link{
+li a{
     text-decoration: none;
 }
 
-
 footer{
-    background-color: #87B7DE;
+    background-color: var(--color-primario);
 }
