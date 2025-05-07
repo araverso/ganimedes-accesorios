@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ganímedes - Tienda de accesorios</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -33,7 +37,9 @@
             <h2>Últimos ingresos: </h2>
             <p>Colección: juegos de fantasía.</p>
             <section>
-                <img src="./imagenes/magic/presentacion_aros_magic.jpg" alt="6 pares de aros inspirados en las tierras de 'Magic: The Gathering' sobre un Playmat temático. Cada par se encuentra sobre la carta representativa a su tierra." width="100%">
+                <a href="stock_colecciones_magic.html">
+                    <img src="./imagenes/magic/presentacion_aros_magic.jpg" alt="6 pares de aros inspirados en las tierras de 'Magic: The Gathering' sobre un Playmat temático. Cada par se encuentra sobre la carta representativa a su tierra." width="100%">
+                </a>
             </section>
             <a href="stock_colecciones_magic.html">Ver colección completa</a>
         </section>
@@ -41,26 +47,33 @@
             <h2>Collares destacados: </h2>
             <img src="./imagenes/ganimedes-02.jpg" alt="Variedad de collares distribuidos uniformemente sobre mantel blanco." width="100%">
         </section>
-        <a href="productos_collares.html">Todos los collares</a>
+        <a href="productos_collares.html">Ver todos los collares</a>
         <section>
             <h2>Aros destacados:</h2>
             <section>
                 <img src="./imagenes/magic/presentacion_aros_magic.jpg" alt="6 pares de aros inspirados en las tierras de 'Magic: The Gathering' sobre un Playmat temático. Cada par se encuentra sobre la carta representativa a su tierra." width="100%">
             </section>
-            <a href="productos_aros.html">Todos los aros</a>
+            <a href="productos_aros.html">Ver todos los aros</a>
         </section>
     </main>
     <footer>
+        <section class="footer__detalles">
+            <p><i>Desde Ganímedes hasta La Tierra</i></p>
+        </section>
         <table>
             <tr>
                 <td width="30%"><p>¡Contactanos!</p></td>
-                <td width="15%"> <a href="https://www.instagram.com/ganimedes.accesorios/"><img src="./imagenes/logos/logo-instagram.svg" alt="logo de instagram" width="10%"></a></td>
+                <td width="15%"> <a href="https://www.instagram.com/ganimedes.accesorios/"><i class="fa-brands fa-instagram"></i></a></td>
                 <td width="30%"> <p>Instagram (@ganimedes.accesorios) </p> </td>
-                <td width="15%"><img src="./imagenes/logos/logo-whatsapp.svg" alt="logo de whatsapp" width="10%"></td>
+                <td width="15%"><i class="fa-brands fa-whatsapp"></i></td>
                 <td width="30%"><p>Whatsapp (no llamadas)</p></td>
             </tr>
         </table>
-        <hr>
+        <!--
+        <section class="footer__desarrollo">
+            <p>Desarrollado por Araceli Maldonado Clar - 2025</p>
+        </section>
+        -->
     </footer>
 </body>
 </html>

@@ -1,18 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-
 @font-face {
-    font-family: "Nimbus";
-    src: url(TAN-NIMBUS.otf)
+    font-family: "Art-nuvo";
+    src: url(/css/Art-nuvo.otf)
 }
 
 :root{
     --color-primario:#87B7DE;
     --color-secundario:#E3B5CF;
-    --color-terciario: #BA0301;
+    --color-terciario: #580d0c;
     --color-claro: #F1EAE5;
     --color-oscuro: #02020C;
-    --fuente-primaria: "Nimbus";
-    --fuente-secundaria: "Josefin Sans";
+    --fuente-primaria: "Art-nuvo";
+    --fuente-secundaria: "Montserrat";
 }
 
 /*
@@ -25,35 +23,49 @@
 
 html{
     font-size: 1rem;
+    font-family: var(--fuente-secundaria);
 }
 
 body{
     background-color: var(--color-claro);
 }
 
-h1{
+header{
+    background-color: var(--color-primario);
     font-family: var(--fuente-primaria);
-    font-size: 50px;
+    font-size: 30px;
     color: var(--color-oscuro);
 }
+
 h2{
     font-family: var(--fuente-secundaria);
     font-size: 30px;
     color: var(--color-oscuro);
 }
 
-header{
-    background-color: var(--color-primario);
-}
-
 ul{
     list-style: none;
 }
 
-li a{
+a{
+    color:#02020C;
     text-decoration: none;
 }
 
 footer{
     background-color: var(--color-primario);
+}
+
+.footer__detalles{
+    background-color: #a2d1f8;
+    text-align: center;
+    color: var(--color-terciario);
+}
+
+.fa-instagram{
+    font-size: 40px;
+}
+
+.fa-whatsapp{
+    font-size: 40px;
 }
