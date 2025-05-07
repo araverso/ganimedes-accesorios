@@ -27,6 +27,7 @@ html{
 
 body{
     background-color: var(--color-claro);
+    font-family: var(--fuente-secundaria);
 }
 
 header{
