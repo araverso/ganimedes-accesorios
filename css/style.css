@@ -9,7 +9,7 @@
     --color-terciario: #580d0c;
     --color-claro: #F1EAE5;
     --color-oscuro: #02020C;
-    --fuente-primario: "Art-nuvo";
+    --fuente-primaria: "Art-nuvo";
     --fuente-secundaria: "Montserrat";
 }
 
@@ -31,7 +31,7 @@ body{
 }
 
 header{
-    background-color: var(--color-primario);
+    background-color: var(--color-primaria);
     font-family: var(--fuente-primaria);
     font-size: 30px;
     color: var(--color-oscuro);
