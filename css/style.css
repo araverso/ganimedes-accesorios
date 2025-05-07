@@ -30,8 +30,8 @@ body{
 }
 
 header{
+    font-family: var("Art-nuvo");
     background-color: var(--color-primaria);
-    font-family: var(--fuente-primaria);
     font-size: 30px;
     color: var(--color-oscuro);
 }
