@@ -4,42 +4,75 @@
 }
 
 :root{
-    --color-primario:#87B7DE;
+    --color-primario:#87b7df;
     --color-secundario:#E3B5CF;
     --color-terciario: #580d0c;
     --color-claro: #F1EAE5;
-    --color-oscuro: #02020C;
+    --color-oscuro: #000000;
     --fuente-primaria: "Art-nuvo";
     --fuente-secundaria: "Montserrat";
 }
-
-/*
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}vdgbzb
-    */
 
 html{
     font-size: 1rem;
 }
 
 body{
+    margin: 0%;
     background-color: var(--color-claro);
     font-family: var(--fuente-secundaria);
 }
 
 header{
-    background-color: var(--color-primario);
+    background-color: var(--color-claro);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0px;
+    padding: 1.5%;
     font-family: var(--fuente-primaria);
-    font-size: 30px;
-    color: var(--color-oscuro);
+    font-size: 20px;
+}
+
+.img_log{
+    width: 70px;
+}
+
+.header_navegacion{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /*flex-wrap: wrap;*/
+}
+
+.header_pagina{
+    padding-left: 5%;
+}
+
+.main_presentacion{
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+    text-align: center;
+    background-image: url(/imagenes/IMG_20250209_183119.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: var(--fuente-primaria);
+    font-size: 70px;
+}
+
+.seccion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
 
 h2{
-    font-family: var(--fuente-secundaria);
-    font-size: 30px;
+    font-family: var(--fuente-primaria);
+    font-size: 50px;
     color: var(--color-oscuro);
 }
 
@@ -48,12 +81,18 @@ ul{
 }
 
 a{
-    color:#02020C;
+    color: var(--color-primario); /*me rompió todo*/
     text-decoration: none;
 }
 
 footer{
+    margin-top: 2%;
     background-color: var(--color-primario);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2%;
 }
 
 .footer__detalles{
@@ -64,6 +103,7 @@ footer{
 
 .fa-instagram{
     font-size: 40px;
+    color: #000000;
 }
 
 .fa-whatsapp{
