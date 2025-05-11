@@ -51,6 +51,15 @@ header{
     padding-left: 5%;
 }
 
+ul{
+    list-style: none;
+}
+
+a{
+    color: var(--color-primario); /*me rompió todo*/
+    text-decoration: none;
+}
+
 .main_presentacion{
     display: flex;
     flex-direction: column;
@@ -70,19 +79,26 @@ header{
     text-align: center;
 }
 
+h1{
+    font-family: var(--fuente-primaria);
+    font-size: 50px;
+    color: var(--color-oscuro);
+}
+
 h2{
     font-family: var(--fuente-primaria);
     font-size: 50px;
     color: var(--color-oscuro);
 }
 
-ul{
-    list-style: none;
-}
-
-a{
-    color: var(--color-primario); /*me rompió todo*/
-    text-decoration: none;
+.productos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column: 1;
+    align-items: center;
+    gap: 10px 10px;
+    grid-column-start: 1;
+    grid-column-end: 3;
 }
 
 footer{
