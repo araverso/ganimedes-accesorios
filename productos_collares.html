@@ -9,19 +9,39 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">    
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header>
+     <header>
         <a href="index.html"><img src="./imagenes/logo-ganimedes/1 reduccion.png" alt="logo de ganímedes. Es una estrella con detalles." class="img_log"> </a>
-        <nav>
-            <ul class="header_navegacion">
-                <li class="header_pagina"><a href="index.html">Inicio</a></li>
-                <li class="header_pagina"><a href="productos.html">Productos</a></li>
-                <li class="header_pagina"><a href="informacion.html">Preguntas frecuentes</a></li>
-                <li class="header_pagina"><a href="contacto.html">Contacto</a></li>
+        <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">Inicio <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="productos.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Productos
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="productos_collares.html">Collares</a>
+                <a class="dropdown-item" href="productos_aros.html">Aros</a>
+                <a class="dropdown-item" href="stock_colecciones_magic.html">Colecciones</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="informacion.html">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+            </li>
             </ul>
-        </nav>    
+        </div>
+        </nav>
     </header>
     <main>
         <section class="seccion">
@@ -53,5 +73,8 @@
             <i class="fa-brands fa-whatsapp"></i>
             <p>Whatsapp (no llamadas)</p>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>

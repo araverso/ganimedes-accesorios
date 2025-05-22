@@ -38,6 +38,30 @@ header{
     z-index: 20;
 }
 
+.navbar-nav .nav-link {
+    color: var(--color-primario);
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--color-oscuro);
+}
+
+.dropdown-menu {
+    background-color: var(--color-claro);
+    border: none;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.dropdown-menu .dropdown-item {
+    color: var(--color-primario);
+}
+
+.dropdown-menu .dropdown-item:hover{
+    background-color: var(--color-claro);
+    color: var(--color-oscuro);
+}
+
 .img_log{
     width: 70px;
 }
