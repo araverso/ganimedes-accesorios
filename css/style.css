@@ -62,6 +62,11 @@ header{
     color: var(--color-oscuro);
 }
 
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
 .img_log{
     width: 70px;
 }
@@ -90,6 +95,8 @@ a{
     text-decoration: none;
 }
 
+
+
 a:hover{
     color: var(--color-oscuro);
 }
@@ -111,16 +118,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     text-align: center;
-}
-
-.banner{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: var(--color-primario);
-    margin: 5% 0% 5% 0%;
-    padding: 5%;
+    margin: 3%;
 }
 
 .grilla-inicio{
@@ -158,6 +156,7 @@ a:hover{
     display: flex;
     flex-direction: column;
     margin: 5%;
+    padding-top: 8%;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgb(156, 146, 146);
 }
@@ -179,6 +178,15 @@ a:hover{
     border: 0.5px solid rgb(156, 146, 146);
     margin: 10%;
     border-radius: 10px;
+}
+
+.boton{
+    padding: 5%;
+}
+
+.titulo-boton{
+    color: #000000;
+    font-size: 20px;
 }
 
 h1{
