@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "Art-nuvo";
+    src: url("Art-nuvo.otf")
+}
+
+:root{
+    --color-primario:#87b7df;
+    --color-secundario: rgb(247, 219, 235);
+    --color-terciario: #580d0c;
+    --color-primario-transparencia: rgba(129, 185, 218, 0.2);
+    --color-claro: #f1eae5;
+    --color-oscuro: #000000;
+    --color-blanco: white;
+    --fuente-primaria: "/src/estilo/Art-nuvo.otf";
+    --fuente-secundaria: "Montserrat";
+}
+
+html{
+    font-size: 1rem;
+}
+
+body{
+    margin: 2%;
+    background-color: var(--color-blanco);
+    font-family: var(--fuente-secundaria);
+    z-index: 0;
+}
+
+/*Elementos generales*/
+
+.lista{
+    text-decoration: none;
+}
+
+a{
+    color: #000000;
+}
+
+.transicion-linea{
+    background: linear-gradient(to right, transparent, var(--color-primario), transparent);
+    width: 0px;
+    height: 3px;
+    transition: width 0.1s;
+    transition-timing-function: ease-in-out;
+}
